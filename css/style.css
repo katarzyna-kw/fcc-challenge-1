@@ -1,0 +1,126 @@
+html {
+    font-size: 16px;
+}
+
+#main {
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.7em;
+  padding: 1em 0 0 0;
+}
+
+h1 {
+  font-family: 'Abril Fatface', serif;
+  line-height: .8em;
+  color: SlateBlue;
+  background-color: LemonChiffon;
+}
+
+#subheader {
+  color: Black;
+}
+
+#middle-area {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: wrap;  
+}
+
+#img-div {
+  font-size: 1.2em;
+  line-height: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#image {
+  border: 1px dashed Turquoise;
+  max-width: 84%;
+  height: auto;
+}
+
+
+#img-caption {
+  padding: 1em;
+  width: 84%;
+  flex-flow: wrap;
+}
+
+#tribute-info {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  width: 77%;
+  background-color: PaleTurquoise;
+  line-height: 150%;
+  padding: 1em;
+}
+
+#tribute-link {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+a {
+  color: DeepPink;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+#footer {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  padding: 2em;
+  color: SlateBlue;
+}
+
+@media (min-width: 768px) {
+
+    header {
+    width: 100%;
+    }
+
+    #middle-area {
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    #img-div {
+    width: 40%;
+    flex-flow: row wrap;
+    }
+
+    #image {
+    max-width: 70%;
+    }
+  
+    #img-caption {
+    max-width: 70%;
+  }
+  
+  #tribute-info {
+    width: 30%;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+  }
+}
